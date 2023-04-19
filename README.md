@@ -8,6 +8,7 @@
 ## This is Highly Experimental Code written with Minimal Exceptions and Minimal Error Handling
 ## Basic Code Created in an Hour purely for Education, Not for Trading Using Real Money
 ## Trading API's are Free from Dhan and Data is Retrieved through NsePython
+## Doesnt work on Cloud
 
 ### Broker- Dhan
 

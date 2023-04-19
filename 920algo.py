@@ -144,13 +144,16 @@ while traded == "No":
             exitCE= dhan.place_order(security_id=str(securityidCE),  exchange_segment=dhan.FNO,transaction_type=dhan.BUY,quantity=Qty,order_type=dhan.MARKET,product_type=dhan.INTRA,price=0)
             traded = "CE"
             print("PE SL Hit or Market is About to be closed")
+            time.sleep(5)
         elif((LTPofPE > peSL) or (dt.hour >= 15 and dt.minute >= 15)):
 
             exitPE= dhan.place_order(security_id=str(securityidPE),  exchange_segment=dhan.FNO,transaction_type=dhan.BUY,quantity=Qty,order_type=dhan.MARKET,product_type=dhan.INTRA,price=0)
             traded = "PE"
             print("Exiting PE Leg")
+            time.sleep(5)
         else:
             print("No SL is Hit")
+            time.sleep(5)
             
     except:
         print("Couldn't find LTP , RETRYING !!")
@@ -166,6 +169,7 @@ while traded == "No":
                     exitPE= dhan.place_order(security_id=str(securityidPE),  exchange_segment=dhan.FNO,transaction_type=dhan.BUY,quantity=Qty,order_type=dhan.MARKET,product_type=dhan.INTRA,price=0)
                     traded = "Close"
                     print("PE SL Hit or Market is About to be closed")
+                    time.sleep(5)
                 else:
                     print("PE SL not hit")
                     time.sleep(1)
@@ -183,10 +187,11 @@ while traded == "No":
                 if ((ltp > ceSL) or (dt.hour >= 15 and dt.minute >= 15)):
                     exitCE= dhan.place_order(security_id=str(securityidCE),  exchange_segment=dhan.FNO,transaction_type=dhan.BUY,quantity=Qty,order_type=dhan.MARKET,product_type=dhan.INTRA,price=0)
                     traded = "Close"
+                    time.sleep(5)
                     
                 else:
                     print("CE SL not hit")
-                    time.sleep(1)
+                    time.sleep(5)
             except:
                 print("Couldn't find LTP , RETRYING !!")
                 time.sleep(1)
