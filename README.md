@@ -9,3 +9,11 @@
 ## Created purely for Educational Purpose
 
 ### Broker- Dhan
+
+If you are using windows run 
+
+pip install requirements.txt
+
+If you are using a Linux Machine run 
+
+pip3 install requirements.txt
