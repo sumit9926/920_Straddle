@@ -4,6 +4,7 @@
 Dont Have An Account? Click Here [Open Account Dhan- No AMC Charges](https://invite.dhan.co/?invite=YBAKG00069)
 
 ## You are Solely and wholly Responsible for Your Loss, Author is Not Responsible for Any of Your Losses
+## Fork, clone and Run
 ## Distributed under MIT Licence
 ## Trading with Automated Algorithm's without Manual Supervision is Considered Illegal in Many Countries(Refer Law of The Land)
 ## This is Highly Experimental Code written with Minimal Exceptions and Minimal Error Handling
