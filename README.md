@@ -12,7 +12,7 @@
 
 ### Broker- Dhan
 
-Dont Have An Account? Click Here [Open Account Dhan- No AMC](https://invite.dhan.co/?invite=YBAKG00069)
+Dont Have An Account? Click Here [Open Account Dhan- No AMC Charges](https://invite.dhan.co/?invite=YBAKG00069)
 
 If you are using windows run 
 
