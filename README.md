@@ -14,6 +14,8 @@ Dont Have An Account? Click Here [Open Account Dhan- No AMC Charges](https://inv
 
 ### Broker- Dhan
 
+### Rules- Sell Straddle at 9.20 with 30 Points SL Each. Close Leg which Hits SL first and Adjust Second Leg's SL To Cost.
+
 If you are using windows run 
 
 pip install requirements.txt
